@@ -37,7 +37,7 @@ DESCRIPTION = """![Logo](https://raw.githubusercontent.com/PixArt-alpha/PixArt-a
         #### [PixArt-Alpha 1024px](https://github.com/PixArt-alpha/PixArt-alpha) is a transformer-based text-to-image diffusion system trained on text embeddings from T5. 
         #### This demo uses the [PixArt-alpha/PixArt-XL-2-1024-ControlNet](https://huggingface.co/PixArt-alpha/PixArt-ControlNet/tree/main) checkpoint.
         #### This demo uses the [PixArt-alpha/PixArt-XL-2-512-ControlNet](https://huggingface.co/PixArt-alpha/PixArt-ControlNet/tree/main) checkpoint.
-        #### English prompts ONLY; 提示词仅限英文
+        #### English prompts ONLY;
         ### <span style='color: red;'>Please use the image size corresponding to the model as input to get the best performance. (eg. 1024px for PixArt-XL-2-1024-ControlNet.pth)
         """
 if not torch.cuda.is_available():

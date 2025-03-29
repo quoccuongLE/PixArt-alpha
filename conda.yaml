@@ -1,0 +1,28 @@
+name: PixArt
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - xformers
+dependencies:
+  - python=3.10
+  - pytorch::pytorch=2.5.1
+  - pytorch::torchvision
+  - pytorch::pytorch-cuda=12.4
+  - xformers::xformers=0.0.28.post3
+  - conda-forge::transformers
+  - conda-forge::optimum
+  - conda-forge::diffusers
+  - conda-forge::accelerate
+  - conda-forge::sentencepiece
+  - conda-forge::timm
+  - conda-forge::tensorboard
+  - conda-forge::gradio
+  - pip
+  - pip:
+    - ftfy~=6.1.1
+    - beautifulsoup4~=4.11.1
+    - einops
+    - mmcv==1.7.0
+    - opencv-python
+    - gradio
